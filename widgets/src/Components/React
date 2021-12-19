@@ -1,0 +1,54 @@
+React
+Advantage
+v dom,jsx,resuablity,easy to write and maintain
+
+Redux
+esay to test,trace,timetracking,unidirection datablow,use when needed
+Componentnt - Store,action,reducer
+
+middleware
+thnunk--allows to return function  insted of action
+
+routeing
+BrowserRoute,switch,Route,Link,NavLink
+
+hooks
+UseHistory
+    use to navigate in function component
+UseLocation,
+    returns  of current URL ,location.PathName
+UseParams
+    returns parameters in the current params
+useRouterMatch
+    The useRouteMatch hook attempts to match the current URL in the same way that a <Route> would.
+     It’s mostly useful for getting access to the match data without actually rendering a <Route>.
+
+component type
+    pure,higherOrder component,smart,dumb,
+
+hooks
+React useState, useEffect
+Redux
+ useSelector
+      a function which receives as its first argument state, 
+    and then it allows you to return from that which part of the state that you want.
+ 
+ ,useDispacth
+     dispatch any action to the store by simply adding 
+     an action as an argument to the new variable like the code above and that's it.
+ 
+ ,useStore
+    This hook returns a reference to the same Redux store that was passed in to the
+
+
+ ,useAction
+    --not used
+ ,useShallowEqualSelector()--not used
+
+
+
+Error boundries
+catch rnder error insted of app breaking on screen
+
+context API
+what is JSX
